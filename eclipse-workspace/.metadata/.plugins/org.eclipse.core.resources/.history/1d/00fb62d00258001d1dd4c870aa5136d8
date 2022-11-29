@@ -1,0 +1,23 @@
+package week7;
+
+import java.util.Scanner;
+
+public class test3 {
+	public static void main(String[] args) {
+
+		System.out.println(getStringFromUser("What class are you taking now?"));
+
+		}
+
+		public static String getStringFromUser(String prompt) {
+
+		Scanner in = new Scanner(System.in);
+
+		System.out.println(prompt);
+
+		String input = in.nextLine(); // User enters "CS 105!"
+
+		return input;
+
+		}
+}

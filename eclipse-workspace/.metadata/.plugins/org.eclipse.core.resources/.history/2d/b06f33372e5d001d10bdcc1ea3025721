@@ -1,0 +1,75 @@
+package week8;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ArrayListSum {  // start 001
+	public static int sumValues(ArrayList<Integer> nums) { // start 002
+		int sum = 0;
+		for(int i = 0; i < nums.size(); i++)
+		{ // start 003         
+		} // end 003
+		return sum;
+	} // end 002
+	static int total;
+	public static void main(String args[]) { // start 004
+		//create an array list
+		Scanner in = new Scanner (System.in);
+		String input= "";
+		
+		Boolean valid = false;
+		int num1 = 0;
+		
+		ArrayList <Integer> nums=new ArrayList<>();
+		sumValues(nums);
+		
+ 
+		System.out.println("This program will ask the user to enter a series of numbers.");
+		System.out.println("The user may enter as many numbers as they wish, hitting the enter key with no data when they wish to stop.");
+		System.out.println("The program will then display the array of numbers and the sum total of those numbers.");
+		System.out.println();	
+		String s = new String();
+	
+	
+	
+	
+	
+		for(int i=0;i<5;i++) { // start 005
+			//game loop
+			boolean game= false;{ // start 006
+				//start of do-while loop- user's input
+				do { // start 007
+					boolean Num1 = false;
+					do { // start 008
+						System.out.println ("Please enter a number (or just hit enter to finish):");
+						input = in.nextLine();
+						try { // start 009
+							num1 = Integer.parseInt(input);
+							valid = true;
+						}catch (Exception e) {  // end 009 -- start 010
+							System.out.println("Invalid Response! Please enter a whole number.");
+						} // end 010
+					} while (!Num1); //end 008
+				}while (!valid);  // end 007
+				
+			} // end 006
+		} // end 005
+	} // end 004
+//				int main() {
+//					int i=0
+//							while (true){
+//								cout<<"Input x:";
+//								cin>> x;
+//								cout<<"Value of x:"<<x<<endl;
+//								if ((x % 5 == 0)
+//										break;
+//							}
+//				} while (!game);
+//			} while (!game);
+//		}
+//		for(int j=0;j<nums.size();j++);
+//		int j = 0;
+//		total+=nums.get(j);
+//		System.out.println("the sum is" +total);
+//	}in.close();
+} // end 001

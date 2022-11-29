@@ -1,0 +1,23 @@
+package week7;
+import java.util.*;
+public class test1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int lowNum = 0;
+		Boolean validNum = false;
+		
+		do {
+			System.out.println("Please enter the low number: ");
+			try {
+				lowNum = Integer.parseInt(in.nextLine());
+				validNum = true;
+			}catch (Exception e) {
+				System.out.println("Invalid Response! Please enter a whole number.");
+			}
+		}while(!validNum);
+
+		validNum = false;
+	}
+
+}

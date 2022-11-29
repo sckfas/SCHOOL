@@ -1,0 +1,22 @@
+package week7;
+
+public class test5 {
+	public static void main(String[] args) {
+		  int x = 2;
+		  System.out.println(x);
+		  addToXTwice(x, 1);
+		  System.out.println(x);
+		}
+
+		public static void addToXTwice(int x, int a) {
+		  x = x + a;
+		  System.out.println(x);
+		  addToX(x, a);
+		  System.out.println(x);
+		}
+
+		private static void addToX(int x, int a) {
+		  x = x + a;
+		  System.out.println(x);
+		}
+}

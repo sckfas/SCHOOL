@@ -1,0 +1,18 @@
+package week7;
+
+import java.util.Scanner;
+
+public class test2 {
+	public static void main(String[] args) {
+		  int y = 0;
+		  y = getYFromUser();
+		  System.out.println(y);
+		}
+
+		public static int getYFromUser() {
+		  Scanner in = new Scanner(System.in);
+		  int y = Integer.parseInt(in.nextLine()); // User enters '8'
+		  in.close();
+		  return y;
+		}
+}

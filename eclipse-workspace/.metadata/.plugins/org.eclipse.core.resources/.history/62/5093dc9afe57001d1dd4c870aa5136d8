@@ -1,0 +1,17 @@
+package week7;
+
+import java.util.Scanner;
+
+public class test4 {
+	public static void main(String[] args) {
+		  findArea(8, -2);
+		}
+
+		public static void findArea(int height, int width) {
+		  if (height < 0 || width < 0) {
+		      System.out.println("Cannot have an area with a side length that is negative!");
+		    return;
+		  }
+		  System.out.println("The area of the rectangle is: " + height * width);
+		}
+}

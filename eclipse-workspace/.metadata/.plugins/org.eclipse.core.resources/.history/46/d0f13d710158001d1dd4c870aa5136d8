@@ -1,0 +1,16 @@
+package week7;
+
+import java.util.Scanner;
+
+public class test4 {
+	public static void printStudentData(String name, String address, String state, String city, String zip, int age, double gpa) {
+		  System.out.println("The information for student " + name + " is: ");
+		  System.out.println("Address: ");
+		  System.out.println(address);
+		  System.out.println(city + ", " + zip);
+		  System.out.println("Age: ");
+		  System.out.println(age);
+		  System.out.println("GPA: ");
+		  System.out.println(gpa);
+		}
+}

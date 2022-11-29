@@ -1,0 +1,30 @@
+package week8;
+
+public class ArrayListSum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// Get the numbers: Please enter a number (or just hit enter to finish): 
+		
+		// Validate numbers
+		
+		// Display number list eg. 	Index   Item
+		//							0		4
+		//							1		5
+		//							2		6
+		
+			
+		// Display number of items in the array list: There are 3 items in the ArrayList
+		
+		// Sum the total of numbers
+		
+		// Display the Sum: The sum total of numbers in the ArrayList is 15.
+		
+		//Play again
+		
+		
+		
+	}
+
+}

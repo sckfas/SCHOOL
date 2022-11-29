@@ -1,0 +1,19 @@
+package week7;
+
+public class test {
+
+
+		public static void main(String[] args) {
+			  int x = 2;
+			  System.out.println(x);
+			  addToX(x, 1);
+			  System.out.println(x);
+			}
+
+			public static void addToX(int x, int a) {
+			  x = x + a;
+			  System.out.println(x);
+			}
+	}
+
+
